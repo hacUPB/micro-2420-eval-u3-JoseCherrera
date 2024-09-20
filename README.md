@@ -101,3 +101,15 @@ int main() {
 
     return 0;
 }
+
+## Reto:
+Configure un nuevo pin para un nuevo led en el micro.
+- Aqui declare el gpio y el pin 
+![alt text](image.png)
+- Aqui configure el delay del led
+![alt text](image-1.png)
+- Aqui el numero del pin 10 , el regisgtro y el gpio los cuales van ser del registro E 
+![alt text](image-2.png)
+- Por ultimo aqui inicialice todo 
+![alt text](image-3.png)
+![alt text](image-4.png)
