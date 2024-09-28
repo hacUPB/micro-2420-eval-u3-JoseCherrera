@@ -19,18 +19,18 @@ ID: 000269913
 - Verilog/VHDL (para sistemas embebidos en FPGA)
 
 2. 
-- C++: Ofrece más características que C, pero con un posible costo de rendimiento.
-- Assembly: Aún más cercano al hardware que C, pero con una curva de aprendizaje mucho mayor.
-- Python: Comparado con C, Python es mucho más lento y menos eficiente en sistemas con recursos limitados. No es una opción común en sistemas embebidos de bajo nivel.
-- Rust: Más seguro que C en cuanto al manejo de memoria, pero su ecosistema en sistemas embebidos aún está en crecimiento.
-- Ada: Aunque es más seguro que C para aplicaciones críticas, tiene menos uso y soporte en la industria general de sistemas embebidos.
-- Java: Java es mucho más pesado y consume más recursos que C, lo que lo hace ineficiente para sistemas embebidos con limitaciones estrictas.
-- Lua: Comparado con C, Lua es más adecuado para sistemas donde se necesite scripting ligero, pero no para control directo del hardware.
-- Verilog/VHDL: Estos lenguajes son específicos para diseñar circuitos electrónicos, no para controlar software embebido como C.
+- **C++**: Ofrece más características que C, pero con un posible costo de rendimiento.
+- **Assembly**: Aún más cercano al hardware que C, pero con una curva de aprendizaje mucho mayor.
+- **Python**: Comparado con C, Python es mucho más lento y menos eficiente en sistemas con recursos limitados. No es una opción común en sistemas embebidos de bajo nivel.
+- **Rust**: Más seguro que C en cuanto al manejo de memoria, pero su ecosistema en sistemas embebidos aún está en crecimiento.
+- **Ada**: Aunque es más seguro que C para aplicaciones críticas, tiene menos uso y soporte en la industria general de sistemas embebidos.
+- **Java**: Java es mucho más pesado y consume más recursos que C, lo que lo hace ineficiente para sistemas embebidos con limitaciones estrictas.
+- **Lua**: Comparado con C, Lua es más adecuado para sistemas donde se necesite scripting ligero, pero no para control directo del hardware.
+- **Verilog/VHDL**: Estos lenguajes son específicos para diseñar circuitos electrónicos, no para controlar software embebido como C.
 
 3. Sí, existen algunos rankings y análisis de popularidad de lenguajes en el ámbito de sistemas embebidos. Uno de los más reconocidos es el "2023 Embedded Markets Study", que se publica anualmente y clasifica lenguajes basados en su uso y adopción en la industria de sistemas embebidos.
 En estos estudios, C sigue siendo el líder indiscutible, seguido de C++. Assembly también mantiene una posición importante debido a su cercanía con el hardware. Python y Rust están emergiendo, especialmente Python para prototipos rápidos y Rust por su enfoque en la seguridad de la memoria. Ada sigue siendo relevante en aplicaciones críticas, como la industria aeroespacial, pero tiene una adopción limitada en otros campos.
-- ----> Link: https://www.geeksforgeeks.org/embedded-systems-programming-languages/
+- **----> Link**: https://www.geeksforgeeks.org/embedded-systems-programming-languages/
 
 # Ejercicio 2:
 ~~~
@@ -106,12 +106,12 @@ int main() {
 ~~~
 ## Reto:
 Configuré un nuevo pin para un nuevo led en el micro.
-- Aqui declare el gpio y el pin 
+- **Aqui declare el gpio y el pin**
 ![alt text](image.png)
-- Aqui configure el delay del led
+- **Aqui configure el delay del led**
 ![alt text](image-1.png)
-- Aqui el numero del pin 10 , el regisgtro y el gpio los cuales van ser del registro E 
+- **Aqui el numero del pin 10 , el regisgtro y el gpio los cuales van ser del registro E**
 ![alt text](image-2.png)
-- Por ultimo aqui inicialice todo 
+- **Por ultimo aqui inicialice todo**
 ![alt text](image-3.png)
 ![alt text](image-4.png)
