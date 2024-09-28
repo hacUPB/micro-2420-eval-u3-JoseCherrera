@@ -33,6 +33,7 @@ En estos estudios, C sigue siendo el líder indiscutible, seguido de C++. Assemb
 - ----> Link: https://www.geeksforgeeks.org/embedded-systems-programming-languages/
 
 # Ejercicio 2:
+~~~
 1. 
 
 2. 
@@ -41,10 +42,10 @@ En estos estudios, C sigue siendo el líder indiscutible, seguido de C++. Assemb
 #define TOGGLE_BIT(reg,bit) ((reg)) ^=  (1 << 31)
 3.  
 #define CHECK_PER(reg) (reg >> 31)
-
+~~~
 
 # Ejercicio 3:
-
+~~~
 //Correcion del codigo
 #include <stdio.h>
 #include <string.h>
@@ -71,9 +72,10 @@ int main() {
 
     return 0;
 }
+~~~
 
 # Ejercicio 4:
-
+~~~
 #include <stdio.h>
 
 int main() {
@@ -101,9 +103,9 @@ int main() {
 
     return 0;
 }
-
+~~~
 ## Reto:
-Configure un nuevo pin para un nuevo led en el micro.
+Configuré un nuevo pin para un nuevo led en el micro.
 - Aqui declare el gpio y el pin 
 ![alt text](image.png)
 - Aqui configure el delay del led
