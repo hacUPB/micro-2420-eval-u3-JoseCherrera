@@ -161,7 +161,9 @@ Se utilizara el registro E para facilitar y utilizar como base el programa de Le
 - PTE11
 - PTE12
 - PTE14
+
 **Pines de salidas: (Filas)**
+
 - PTE15
 - PTE16
 - PTE2
