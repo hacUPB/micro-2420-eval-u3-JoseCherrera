@@ -129,6 +129,20 @@ Configuré un nuevo pin para un nuevo led en el micro.
 
 ![alt text](image-6.png)
 
+
+
+- **XX**: Esta es la variable que digita la persona que va desde 00 hasta 99 
+- **YY**: Esta es la variable es la que queda guardada anteriormente 
+- **A**: Activa el PWM y pasar al estado donde el LED varía su intensidad según el ciclo útil actual.
+- **B**: Desactiva el PWM y apagar el LED, regresando al estado inicial.
+- **C**: Cancela el proceso de cambio al presionar en cualquier momento (Cualquier estado) y ademas el sistema debe descartar el cambio y regresar al estado anterior.
+- **D**: Confrima el cambio. El sistema debe actualizar el ciclo útil del PWM al nuevo valor ingresado.
+
+El estado inicial espera de una entrada del usuario despues de haber presionado la tecla A principalmente, el estado de PWM activado el led varia su intensidad dependiendo
+del valor ingredsado el usuario "XX" ademas de que tambien en este estado se puede con la tecla "B" desactivar el PWM y apagar el led , cancelar el cambio de la variable "YY"guardada 
+y por ultimo presionar la tecla "D"  para confirmar el cambio y pasar a la configuracion del ciclo util  con el nuevo valor.
+
+
 # Implentacion del ejempo de SDK de PWM:
 
 - **Led con alta intencidad**
@@ -138,3 +152,23 @@ Configuré un nuevo pin para un nuevo led en el micro.
 - **Led con baja intencidad**
 
 ![alt text](image-8.png)
+
+# Pines:
+Se utilizara el registro E para facilitar y utilizar como base el programa de Led_blinky
+
+**Pines de entrada: (Columnas)**
+- PTE10
+- PTE11
+- PTE12
+- PTE14
+**Pines de salidas: (Filas)**
+- PTE15
+- PTE16
+- PTE2
+- PTE6
+
+![alt text](image-9.png)
+
+![alt text](image-10.png)
+
+![alt text](image-11.png)
