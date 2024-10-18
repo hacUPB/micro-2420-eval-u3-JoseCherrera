@@ -132,7 +132,9 @@ Configuré un nuevo pin para un nuevo led en el micro.
 # Implentacion del ejempo de SDK de PWM:
 
 - **Led con alta intencidad**
+
 ![alt text](image-7.png)
 
 - **Led con baja intencidad**
+
 ![alt text](image-8.png)
